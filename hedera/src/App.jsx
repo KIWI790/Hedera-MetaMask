@@ -71,7 +71,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1 className="header">Let's buidl a counter dapp with MetaMask and Hedera!</h1>
+			<h1 className="header">Let's build a counter dapp with MetaMask and Hedera!</h1>
 			<MyGroup fcn={connectWallet} buttonLabel={"Connect Wallet"} text={connectTextSt} link={connectLinkSt} />
 
 			<MyGroup fcn={contractDeploy} buttonLabel={"Deploy Contract"} text={contractTextSt} link={contractLinkSt} />
